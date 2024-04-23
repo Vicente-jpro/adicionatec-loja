@@ -21,4 +21,13 @@ main > .container {
   .card{
     border-width: 0 !important;
   }
+
+  .i-1{
+    font-size: 70px;
+  }
+
+  .nav-item:hover{
+    background-color: #e57373 !important;
+  }
+
 }
