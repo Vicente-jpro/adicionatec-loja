@@ -1,0 +1,2 @@
+# adicionatec-loja
+ Adicionatec loja
