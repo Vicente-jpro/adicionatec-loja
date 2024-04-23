@@ -17,4 +17,8 @@ main > .container {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+
+  .card{
+    border-width: 0 !important;
+  }
 }
