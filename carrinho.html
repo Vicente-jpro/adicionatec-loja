@@ -11,6 +11,8 @@
     rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">    
     <!-- Custom styles for this template -->
     <link href="sticky-footer-navbar.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+ 
   </head>
   <body class="d-flex flex-column h-100">
     
@@ -49,6 +51,9 @@
     <div class="container">
 
       <div class="row mt-5">
+
+      <strong class="text-danger opacity-75 fs-4">MEU CARRINHO</strong> <br/><br/>
+
         <div class="col-8">
           <div class="row">
             <div class="col-4">
@@ -59,17 +64,23 @@
               <p class="card-text">
                 <strong class="text-danger opacity-75">MARCA, DESCRIÇÃO DO PRODUTO</strong> 
                 <br/>
-                <strong class="dark-text-emphasis opacity-75">Cor: Tipo da cor</strong> <br/>
+                <small class="text-muted">
+                  <strong class="dark-text-emphasis opacity-75">Cor: Tipo da cor</strong> 
+                </small>
+                <br/>
+                
                 <span class="text-success">Quantidade: 4</span>  <br/>
-                <strong class="text-danger fs-5 opacity-75">$ 7892,39</strong> 
+                <strong class="text-danger fs-5 opacity-75">$ 7892,39</strong> <br>
+                <small class="text-muted">Codigo do carrinho: 9234252534536</small>
               </p>  
               <div class="btn-group" role="group" aria-label="Basic outlined example">
                 <button type="button" class="btn btn-outline-success">+</button>
                 <button type="button" class="btn btn-outline-danger">-</button>
               </div>
             </div>
-            <div class="col">     
-              <button type="button" class="btn btn-outline-danger">Remover</button>
+            <div class="col text-center">     
+              <button type="button" class="btn btn-outline-danger">Remover</button> <br/>
+              <i class="bi-emoji-heart-eyes fs-1 text-danger opacity-75"></i> <br/>
             </div>
           </div>
 
