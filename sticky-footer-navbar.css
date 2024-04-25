@@ -18,7 +18,7 @@ main > .container {
     font-size: 3.5rem;
   }
 
-  .card{
+  .card, .dropdown-menu{
     border-width: 0 !important;
   }
 
@@ -26,8 +26,15 @@ main > .container {
     font-size: 70px;
   }
 
-  .nav-item:hover{
+  .nav-item:hover,  .dropdown-item:hover{
     background-color: #e57373 !important;
   }
+  .dropdown-menu{
+    background-color: #DC3545;
+  }
 
+}
+
+.badge > a {
+  color: inherit;
 }
